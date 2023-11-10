@@ -11,12 +11,10 @@ pipeline {
     NEXUS_PASS = 'admin123'
     RELEASE_REPO = 'vprofile-release'
     CENTRAL_REPO = 'vpro-maven-central'
-    NEXUSIP = '172.31.84.14'
+    NEXUSIP = '172.31.41.215'
     NEXUSPORT = '8081'
     NEXUS_GRP_REPO = 'vpro-maven-group'
-    NEXUS_LOGIN = 'nexulogin'
-    SONARSERVER = 'sonarserver'
-    SONARSCANNER = 'sonarscanner'
+    NEXUS_LOGIN = 'nexuslogin'
   }
 
   stages {
